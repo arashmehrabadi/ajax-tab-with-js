@@ -1,0 +1,35 @@
+body{
+    font-size: 14px;
+    
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 100%;
+    background-color: var(--bgcolor_content);
+    height: 100vh;
+}
+.inner-one{
+    width: 91.51%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+.inner-two{
+    width: 96.5%;
+    margin: 0 auto;
+}
+.main-two-inners{
+    background-color: var(--inner_bgcolor_content);
+    padding-top: 1px;
+    height: 500px;
+}

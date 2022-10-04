@@ -1,0 +1,77 @@
+:root {
+    --menu_color: #89877B;
+    --bgcolor_content: #F8F8F8;
+    --inner_bgcolor_content: #FFFFFF;
+    --content_color: #3D3B30;
+}
+.subjects-page{
+    min-height: 100vh;
+}
+
+
+.content ul.ul-inputs li.behinde{
+    color: var(--menu_color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-two-inners {
+    transition: all .5s;
+    border-radius: 8px 0 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-two-inners h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content ul.ul-inputs {
+    background-color: var(--bgcolor_content);
+}
+
+.content ul.ul-inputs li {
+    padding: 12px 24px;
+    background-color: var(--inner_bgcolor_content);
+    border-radius: 8px 8px 0 0;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--content_color);
+}
+
+.tab-1{
+    background-color: rgba(143, 146, 246, 0.371) !important ;
+}
+.tab-2{
+    background-color: rgba(58, 173, 245, 0.402) !important ;
+}
+.tab-3{
+    background-color: rgb(88, 233, 216) !important ;
+}
+.tab-4{
+    background-color: rgb(168, 188, 142) !important ;
+}
+.tab-5{
+    background-color: rgb(240, 231, 112) !important ;
+}
+.page-1{
+    background-color: rgba(143, 146, 246, 0.531) !important ;
+    
+}
+.page-2{
+    background-color: rgba(58, 173, 245, 0.606) !important ;
+
+}
+.page-3{
+    background-color: rgb(58, 213, 195) !important ;
+
+}
+.page-4{
+    background-color: rgb(114, 149, 68) !important ;
+
+}
+.page-5{
+    background-color: rgb(223, 213, 68) !important ;
+
+}
